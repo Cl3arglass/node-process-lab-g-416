@@ -1,3 +1,5 @@
 module.exports = {version}
 
-var version = process.version
+function version () {
+  return process.version
+}
