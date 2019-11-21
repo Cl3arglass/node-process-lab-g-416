@@ -1,5 +1,1 @@
-module.exports = {version()}
-
-function version() {
-  return process.version
-}
+module.exports = {return process.version}
