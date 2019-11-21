@@ -1,1 +1,3 @@
-module.exports = {global.process.version}
+module.exports = {version}
+
+var version = process.version
